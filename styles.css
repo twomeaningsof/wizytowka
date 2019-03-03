@@ -1,0 +1,168 @@
+body {
+    margin:0;
+    width:100%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+.heading {
+    background-color: rgb(37, 37, 37);
+    width: 99%;
+    height:90px;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px #1b1b1b;
+    border-radius: 3px;
+    position:absolute;
+    top:5px;
+    left:3px;
+    right:3px;
+    z-index: 3;
+}
+
+.logo {
+    position:relative;
+    width:15%;
+    height:100%;
+    overflow:hidden;
+}
+
+.logo img {
+    width:60px;
+    height:auto;
+    position:absolute;
+    top:14px;
+    left:17px;
+    border-radius: 10px;
+}
+
+nav {
+    width:40%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.naw {
+    background-color:rgb(136, 136, 136);
+    height:65%;
+    min-width: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #888888
+}
+
+.hero {
+    height:700px;
+    background-size:cover;
+    overflow:hidden;
+    position:relative;
+}
+
+.hero img {
+    width:100%;
+    height:auto;
+    min-height:700px;
+    background-size:cover;
+    position:absolute;
+
+}
+
+.hero p {
+    color:white;
+    font-size:66px;
+    text-align:center;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    z-index:3;
+    top:125px;
+}
+
+.strghts {
+    background-color: rgb(37, 37, 37);
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size:28px;
+    color:white;
+    flex-wrap:wrap;
+    padding-bottom: 35px;
+    position:relative;
+    box-shadow: 0 -5px 5px -5px #333;
+}
+
+#top {
+    width:100%;
+    padding-bottom:60px;
+    padding-top:25px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size:55px;
+    background-color:white;
+    color:black;
+    
+}
+
+#top2 {
+    width:100%;
+    font-size:36px;
+    text-align:left;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 350px;
+    height:50px;
+    font-style:italic;
+    font-weight:bold;
+}
+
+.itemS {
+    position:relative;
+    bottom: 10px;
+}
+
+.recs {
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    flex-wrap:wrap;
+    padding-bottom:35px;
+
+}
+
+.recI {
+    width:250px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+.recs img {
+    border-radius: 30px;
+}
+
+.foot {
+    background-color: rgb(37, 37, 37);
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+
+.foot img {
+    display:inline-block;
+    width:50px;
+    border-radius:20px;
+}
