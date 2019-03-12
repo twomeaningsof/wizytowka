@@ -43,6 +43,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     overflow:hidden;
+    font-weight: 700;
     
 }
 
@@ -50,7 +51,7 @@ nav {
     background-color:rgb(136, 136, 136);
     height:65%;
     min-width: 50px;
-    width:100px;
+    width:28%;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -169,7 +170,7 @@ nav {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 588px) {
     nav {
         width: 50%;
         flex-direction: column;
@@ -189,5 +190,15 @@ nav {
 
     .hero p {
         font-size: 50px;
+    }
+
+    .recs {
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    nav {
+        width: 65%;
     }
 }
