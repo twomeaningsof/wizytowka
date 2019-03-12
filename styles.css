@@ -170,7 +170,7 @@ nav {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     nav {
         width: 50%;
         flex-direction: column;
