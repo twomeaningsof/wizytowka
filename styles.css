@@ -5,6 +5,11 @@ body {
     font-size: 16px;
 }
 
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
 .heading {
     background-color: rgb(37, 37, 37);
     width: 99%;
@@ -50,15 +55,25 @@ nav {
 .naw {
     background-color:rgb(136, 136, 136);
     height:65%;
-    min-width: 50px;
     width:28%;
+    text-decoration: none;
     display:flex;
     align-items: center;
     justify-content: center;
     padding-left: 6px;
     padding-right: 6px;
     border-radius: 4px;
-    box-shadow: 1px 1px 1px #888888
+    box-shadow: 1px 1px 1px #888888;
+    cursor:pointer;
+    top:0;
+    transition: bottom 1s, right 1s;
+}
+
+.naw:hover {
+    background-color:rgb(114, 114, 114);
+    position:relative;
+    top:0;
+    right:1px;
 }
 
 .hero {
@@ -167,6 +182,10 @@ nav {
     display:inline-block;
     width:50px;
     border-radius:20px;
+}
+
+a{
+    text-decoration: none;
 }
 
 
