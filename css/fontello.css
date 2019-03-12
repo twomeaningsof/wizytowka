@@ -55,22 +55,24 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-thumbs-up:before { content: '\e800'; font-size: 60px; color: white; border: solid grey 15px; border-radius: 50px;} /* '' */
+.icon-thumbs-up:before { content: '\e800'; font-size: 60px; color: black; border: solid black 12px; border-radius: 50px; background-color: floralwhite} /* '' */
 .icon-flow-branch:before {
   content: '\e801';
   font-size: 60px;
-  color: white;
-  border: solid grey 15px;
+  color: black;
+  border: solid black 12px;
   border-radius: 50px;
+  background-color: floralwhite
 }
 
 /* '' */
 .icon-flash:before {
   content: '\e802';
   font-size: 60px;
-  color: white;
-  border: solid grey 15px;
+  color: black;
+  border: solid black 12px;
   border-radius: 50px;
+  background-color: floralwhite
 }
 
 /* '' */
