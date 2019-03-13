@@ -186,6 +186,10 @@ nav {
 
 }
 
+.foot p {
+    color: white;
+}
+
 .foot img {
     display:inline-block;
     width:50px;
@@ -221,7 +225,7 @@ nav {
         padding-bottom: 40px;
     }
 
-    a, p{
+    a p{
         text-decoration: none;
         margin: 0;
         padding: 0;
